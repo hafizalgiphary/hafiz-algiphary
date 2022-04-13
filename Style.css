@@ -1,0 +1,717 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("./Img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Archivo', sans-serif;
+}
+
+.navbar{
+    background-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding: 0rem;
+}
+
+.navbar li{
+    font-size: 18px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6px;
+    border-color: #333333;
+    padding: 12px;
+    transition: all 500ms ease-in-out;
+
+    text-align: center;
+}
+
+.navbar li:hover{
+    font-size: 18px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6px;
+    border-color: #333333;
+    padding: 12px;
+    transition: all 500ms ease-in-out;
+    background-color: #FBF45D;
+}
+  
+
+
+.title{
+    font-size: 96px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #333333;
+}
+
+.title-2{
+    font-size: 96px;
+    color: #333333;
+}
+
+.arrow{
+    height: 106px;
+    width: 80px;
+}
+
+.about{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+
+}
+
+
+.about-grid-left{
+    background-color: #FEF8C4;
+    border-right-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    background-image: url("./Img/Bg-about.png");
+    background-position: top right;
+    background-size: 25%;
+    background-repeat: no-repeat;
+
+}
+
+.img-about-1{
+    height: 427px;
+    width: 427px;
+}
+
+.img-about-2{
+    position: absolute;
+    height: 427px;
+    width: 427px;
+    right: 24px;
+    top: 1200px;
+    z-index: 1;
+}
+
+.Subtitle{
+    transform: rotate(270deg);
+    position: absolute;
+    left: -12px;
+    top: 1150px;
+    color: #333333;
+}
+
+.Subtitle-2{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 21px;
+    top: 1400px;
+    color: #333333;
+}
+
+.Subtitle-3{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 2px;
+    top: 1575px;
+    color: #333333;
+}
+
+.desc{
+    font-size: 18px;
+    color: #333333;
+}
+
+.Line{
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding-right: 1070px;
+}
+
+.Line-2{
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding-right: 1903px;
+}
+
+.porto{
+    background-color: #DC4C87;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    background-image: url("./Img/Img-porto.png");
+    background-position: top right;
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+.card-title{
+    font-size: 48px;
+    color: #333333;
+}
+
+.card-text{
+    color: #333333;
+    font-size: 24px;
+}
+
+.card-body{
+    padding-bottom: 0rem;
+}
+
+.card{
+border-radius: 0%;
+ border-style: solid;
+ border-color: #333333;
+ border-width: 6px;
+ background: linear-gradient(to top, #FBF45D 50%, rgba(255, 255, 255, 0) 0%);
+ background-size: 100% 200%;
+ background-position: top left;
+ transition: all 500ms ease-out;
+
+}
+
+.card:hover{
+    background-position: bottom left;
+    
+}
+
+.nav-pills{
+ border-bottom-style: solid;
+ border-color: #333333;
+ border-width: 3px;
+}
+
+.btnx{
+    border-style: solid;
+    border-color: #333333;
+    border-width: 4px;
+    background-color:#FEF8C4 ;
+    transition: all 500ms ease-in-out;
+    border-radius: 0%;
+}
+
+.btnx:hover{
+    background-color:#FBF45D ;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+
+
+
+#spin {
+    font-size: 24px;
+    color:#333333;
+  }
+  #spin:after {
+    content:"";
+    transition: all 500ms;
+    animation: spin 15s ease-in-out infinite;
+  }
+  @keyframes spin {
+    0% { content:"Halo";}
+    10% { content:"Hola";}
+    20% { content:"Sit";}
+    30% { content:"Nǐn hǎo";}
+    40% { content:"Salve";}
+    50% { content: "Adipisicing"; }
+    60% { content: "Konnichiwa"; }
+    70% { content: "Asalaamualaikum"; }
+    80% { content: "Goddag"; }
+    90% { content: "Merhaba"; }
+  }
+
+
+
+
+@media screen and (max-width: 1440px) {
+  
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("./Img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Archivo', sans-serif;
+}
+
+.navbar{
+    background-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding: 0rem;
+}
+
+.navbar li{
+    font-size: 18px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6px;
+    border-color: #333333;
+    padding: 12px;
+    transition: all 500ms ease-in-out;
+
+    text-align: center;
+}
+
+.navbar li:hover{
+    font-size: 18px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-width: 6px;
+    border-color: #333333;
+    padding: 12px;
+    transition: all 500ms ease-in-out;
+    background-color: #FBF45D;
+}
+  
+
+
+.title{
+    font-size: 80px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #333333;
+}
+
+.title-2{
+    font-size: 80px;
+    color: #333333;
+}
+
+.arrow{
+    height: 106px;
+    width: 80px;
+}
+
+.about{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+
+}
+
+
+.about-grid-left{
+    background-color: #FEF8C4;
+    border-right-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    background-image: url("./Img/Bg-about.png");
+    background-position: top right;
+    background-size: 25%;
+    background-repeat: no-repeat;
+
+}
+
+.img-about-1{
+    height: 400px;
+    width: 400px;
+}
+
+.img-about-2{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: 12px;
+    top: 1200px;
+    z-index: 1;
+}
+
+.Subtitle{
+    transform: rotate(270deg);
+    position: absolute;
+    left: -12px;
+    top: 1050px;
+    color: #333333;
+}
+
+.Subtitle-2{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 21px;
+    top: 1350px;
+    color: #333333;
+}
+
+.Subtitle-3{
+    transform: rotate(270deg);
+    position: absolute;
+    left: 2px;
+    top: 1560px;
+    color: #333333;
+}
+
+.desc{
+    font-size: 18px;
+    color: #333333;
+}
+
+.Line{
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding-right: 800px;
+}
+
+.Line-2{
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    padding-right: 1420px;
+}
+
+.porto{
+    background-color: #DC4C87;
+    border-bottom-style: solid;
+    border-color: #333333;
+    border-width: 6px;
+    background-image: url("./Img/Img-porto.png");
+    background-position: top right;
+    background-size: 15%;
+    background-repeat: no-repeat;
+}
+
+.card-title{
+    font-size: 40px;
+    color: #333333;
+}
+
+.card-text{
+    color: #333333;
+    font-size: 24px;
+}
+
+.card-body{
+    padding-bottom: 0rem;
+}
+
+.card{
+border-radius: 0%;
+ border-style: solid;
+ border-color: #333333;
+ border-width: 6px;
+ background: linear-gradient(to top, #FBF45D 50%, rgba(255, 255, 255, 0) 0%);
+ background-size: 100% 200%;
+ background-position: top left;
+ transition: all 500ms ease-out;
+
+}
+
+.card:hover{
+    background-position: bottom left;
+    
+}
+
+.nav-pills{
+ border-bottom-style: solid;
+ border-color: #333333;
+ border-width: 3px;
+}
+
+.btnx{
+    border-style: solid;
+    border-color: #333333;
+    border-width: 4px;
+    background-color:#FEF8C4 ;
+    transition: all 500ms ease-in-out;
+    border-radius: 0%;
+}
+
+.btnx:hover{
+    background-color:#FBF45D ;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+
+
+#spin {
+    font-size: 24px;
+    color:#333333;
+  }
+  #spin:after {
+    content:"";
+    transition: all 500ms;
+    animation: spin 15s ease-in-out infinite;
+  }
+  @keyframes spin {
+    0% { content:"Halo";}
+    10% { content:"Hola";}
+    20% { content:"Sit";}
+    30% { content:"Nǐn hǎo";}
+    40% { content:"Salve";}
+    50% { content: "Adipisicing"; }
+    60% { content: "Konnichiwa"; }
+    70% { content: "Asalaamualaikum"; }
+    80% { content: "Goddag"; }
+    90% { content: "Merhaba"; }
+  }
+
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 1280px) {
+  
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        background-image: url("./Img/Background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Archivo', sans-serif;
+    }
+    
+    
+    .title{
+        font-size: 72px;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 4px;
+      -webkit-text-stroke-color: #333333;
+    }
+    
+    .title-2{
+        font-size: 80px;
+        color: #333333;
+    }
+    
+    .arrow{
+        height: 106px;
+        width: 80px;
+    }
+    
+    .about{
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-color: #333333;
+        border-width: 6px;
+    
+    }
+    
+    
+    .about-grid-left{
+        background-color: #FEF8C4;
+        border-right-style: solid;
+        border-color: #333333;
+        border-width: 6px;
+        background-image: url("./Img/Bg-about.png");
+        background-position: top right;
+        background-size: 25%;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .img-about-1{
+        height: 350px;
+        width: 350px;
+    }
+    
+    .img-about-2{
+        position: absolute;
+        height: 350px;
+        width: 350px;
+        right: 12px;
+        top: 1100px;
+        z-index: 1;
+    }
+    
+
+
+    .Subtitle{
+        transform: rotate(270deg);
+        position: absolute;
+        left: -12px;
+        top: 1080px;
+        color: #333333;
+    }
+    
+    .Subtitle-2{
+        transform: rotate(270deg);
+        position: absolute;
+        left: 21px;
+        top: 1360px;
+        color: #333333;
+    }
+    
+    .Subtitle-3{
+        transform: rotate(270deg);
+        position: absolute;
+        left: 2px;
+        top: 1580px;
+        color: #333333;
+    }
+    
+    .desc{
+        font-size: 18px;
+        color: #333333;
+    }
+    
+    .Line{
+        border-bottom-style: solid;
+        border-color: #333333;
+        border-width: 6px;
+        padding-right: 700px;
+    }
+    
+    .Line-2{
+        border-bottom-style: solid;
+        border-color: #333333;
+        border-width: 6px;
+        padding-right: 1260px;
+    }
+    
+    .porto{
+        background-color: #DC4C87;
+        border-bottom-style: solid;
+        border-color: #333333;
+        border-width: 6px;
+        background-image: url("./Img/Img-porto.png");
+        background-position: top right;
+        background-size: 15%;
+        background-repeat: no-repeat;
+    }
+    
+    .card-title{
+        font-size: 32px;
+        color: #333333;
+    }
+    
+    .card-text{
+        color: #333333;
+        font-size: 18px;
+    }
+    
+    .card-body{
+        padding-bottom: 0rem;
+    }
+    
+    .card{
+    border-radius: 0%;
+     border-style: solid;
+     border-color: #333333;
+     border-width: 6px;
+     background: linear-gradient(to top, #FBF45D 50%, rgba(255, 255, 255, 0) 0%);
+     background-size: 100% 200%;
+     background-position: top left;
+     transition: all 500ms ease-out;
+    
+    }
+    
+    .card:hover{
+        background-position: bottom left;
+        
+    }
+    
+    .nav-pills{
+     border-bottom-style: solid;
+     border-color: #333333;
+     border-width: 3px;
+    }
+    
+    .btnx{
+        border-style: solid;
+        border-color: #333333;
+        border-width: 4px;
+        background-color:#FEF8C4 ;
+        transition: all 500ms ease-in-out;
+        border-radius: 0%;
+    }
+    
+    .btnx:hover{
+        background-color:#FBF45D ;
+    }
+    
+    .footer{
+        background-color: #f2f2f2;
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+    
+    
+    
+    #spin {
+        font-size: 24px;
+        color:#333333;
+      }
+      #spin:after {
+        content:"";
+        transition: all 500ms;
+        animation: spin 15s ease-in-out infinite;
+      }
+      @keyframes spin {
+        0% { content:"Halo";}
+        10% { content:"Hola";}
+        20% { content:"Sit";}
+        30% { content:"Nǐn hǎo";}
+        40% { content:"Salve";}
+        50% { content: "Adipisicing"; }
+        60% { content: "Konnichiwa"; }
+        70% { content: "Asalaamualaikum"; }
+        80% { content: "Goddag"; }
+        90% { content: "Merhaba"; }
+      }
+    
+    
+      }
+
+
+      @media screen and (max-width: 1024px) {
+       body{
+           background-image: url("/Img/medium.png");
+           background-position-y: 0rem;
+           background-repeat: no-repeat;
+           background-size: 100%;
+       }
+    }
+
+
+
+
+       @media screen and (max-width: 768px) {
+        body{
+            background-image: url("/Img/ipad.png");
+            background-position-y: 0rem;
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    }
+
+
+    
+        @media screen and (max-width: 540px) {
+            body{
+                background-image: url("/Img/phone.png");
+                background-position-y: 0rem;
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+
+
+    }
